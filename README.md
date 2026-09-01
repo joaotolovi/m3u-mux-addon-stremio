@@ -5,58 +5,58 @@
 </p>
 
 <p align="center">
-  <strong>Busca precisa para a sua playlist no Stremio.</strong><br>
-  M3U e Xtream em um addon rápido, configurável e feito para encontrar o título certo.
+  <strong>Precise playlist search for Stremio.</strong><br>
+  M3U and Xtream in one fast, configurable addon built to find the right title.
 </p>
 
 <p align="center">
-  <a href="https://m3umux.joaotolovi.com/">Abrir M3U Mux</a> ·
-  <a href="https://buymeacoffee.com/joaotolovi">Apoiar o projeto</a>
+  <a href="https://m3umux.joaotolovi.com/">Open M3U Mux</a> ·
+  <a href="https://buymeacoffee.com/joaotolovi">Support the project</a>
 </p>
 
-## O que torna o M3U Mux diferente
+## What makes M3U Mux different
 
-Uma playlist grande não deveria entregar resultados parecidos como se fossem certos. O M3U Mux cruza os metadados do Stremio e do TMDB com o seu catálogo para buscar o match exato: filme certo, série certa e, quando aplicável, temporada e episódio certos.
+A large playlist should not return vaguely similar results as if they were correct. M3U Mux combines Stremio and TMDB metadata with your catalog to search for the exact match: the right movie, the right show and, when applicable, the right season and episode.
 
-Ele foi construído para evitar confusões entre títulos semelhantes, remakes, filmes e séries com o mesmo nome, ou episódios errados. A busca permanece rápida mesmo depois que a playlist é indexada.
+It is designed to avoid confusion between similar titles, remakes, movies and shows with the same name, or the wrong episode. Once a playlist is indexed, search remains fast.
 
-## Benchmark independente de catálogo
+## Real-catalog benchmark
 
-Em um teste real com uma playlist de **643 mil entradas** e 51 títulos validados manualmente:
+In a real test using a playlist with **643,000 entries** and 51 manually validated titles:
 
-| Métrica | M3U Mux | GhostVOD |
+| Metric | M3U Mux | GhostVOD |
 | --- | ---: | ---: |
-| Acertos exatos | **51 / 51** | 34 / 51 |
-| Busca quente (mediana) | **25 ms** | 1,53 s |
-| Busca fria (mediana) | **124 ms** | 3,99 s |
+| Exact matches | **51 / 51** | 34 / 51 |
+| Warm search (median) | **25 ms** | 1.53 s |
+| Cold search (median) | **124 ms** | 3.99 s |
 
-Isso equivale a cerca de **61× mais rápido em busca quente** e **32× mais rápido em busca fria** no cenário medido. Busca quente é uma consulta repetida, usando cache; busca fria mede a primeira consulta, sem esse benefício.
+That is roughly **61× faster for warm searches** and **32× faster for cold searches** in the measured scenario. A warm search is a repeated lookup that can use cache; a cold search measures the first lookup without that benefit.
 
-Os resultados dependem da playlist, do provedor e da rede, mas o foco do projeto é constante: precisão antes de volume e resposta rápida sem sacrificar o match correto.
+Results depend on the playlist, provider and network, but the project has a consistent focus: precision before volume, and fast responses without compromising the correct match.
 
-## Recursos
+## Features
 
-- Fontes M3U, M3U8 e Xtream
-- Configuração pelo navegador, sem expor a playlist no link de instalação
-- Até 10 fontes por addon
-- Busca por IMDb com metadados do TMDB
-- Match de filme, série, temporada e episódio
-- Títulos em vários idiomas e títulos alternativos
-- Preferências de idioma de áudio, qualidade e grupos de playlist
-- Índice persistente para buscas rápidas após a primeira sincronização
-- Atualização automática do catálogo
-- Link individual para configurar novamente um addon já criado
-- Compatível com Stremio, Nuvio e WuPlay
+- M3U, M3U8 and Xtream sources
+- Browser-based setup without exposing the playlist in the installation URL
+- Up to 10 sources per addon
+- IMDb lookup backed by TMDB metadata
+- Movie, series, season and episode matching
+- Multi-language and alternative-title matching
+- Audio language, quality and playlist-group preferences
+- Persistent index for fast searches after the initial sync
+- Automatic catalog refresh
+- An individual link to reconfigure an existing addon
+- Compatible with Stremio, Nuvio and WuPlay
 
-## Comece agora
+## Get started
 
-1. Acesse [m3umux.joaotolovi.com](https://m3umux.joaotolovi.com/).
-2. Adicione a sua fonte M3U ou Xtream.
-3. Aguarde a indexação e instale o link gerado no seu app compatível.
+1. Visit [m3umux.joaotolovi.com](https://m3umux.joaotolovi.com/).
+2. Add your M3U or Xtream source.
+3. Wait for indexing, then install the generated link in your compatible app.
 
-O M3U Mux não hospeda conteúdo nem fornece playlists. Você conecta apenas as suas próprias fontes.
+M3U Mux does not host content or provide playlists. You connect only your own sources.
 
-## Apoie o projeto
+## Support the project
 
-Se o M3U Mux te ajuda, considere apoiar seu desenvolvimento em [Buy Me a Coffee](https://buymeacoffee.com/joaotolovi).
+If M3U Mux helps you, consider supporting its development on [Buy Me a Coffee](https://buymeacoffee.com/joaotolovi).
 
