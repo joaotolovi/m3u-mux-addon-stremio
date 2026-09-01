@@ -1,13 +1,13 @@
-# M3U Mux
-
-[![Go](https://img.shields.io/badge/Go-1.26%2B-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
-[![SQLite](https://img.shields.io/badge/SQLite-FTS5-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Stremio](https://img.shields.io/badge/Stremio-addon-7B5BF2?style=for-the-badge)](https://www.stremio.com/)
-[![License](https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge)](LICENSE)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support%20the%20project-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/joaotolovi)
-
 <p align="center">
   <img src="https://m3umux.joaotolovi.com/assets/m3u-mux-logo-512.png" alt="M3U Mux" width="160">
+</p>
+
+<p align="center">
+  <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-1.26%2B-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"></a>
+  <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite-FTS5-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"></a>
+  <a href="https://www.stremio.com/"><img src="https://img.shields.io/badge/Stremio-addon-7B5BF2?style=for-the-badge" alt="Stremio"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://buymeacoffee.com/joaotolovi"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support%20the%20project-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee"></a>
 </p>
 
 <p align="center">
